@@ -1,12 +1,18 @@
+/* the main page of the site has no border or margin */
+
 * {
     box-sizing: border-box;
     padding: 0;
     margin: 0;
 }
 
+/* the background color of the main page */
+
 body {
     background-color: #d9dcd6;
 }
+
+/* styling header background color and font of text */
 
 .header {
     padding: 20px;
@@ -20,9 +26,12 @@ body {
     font-size: 48px;
 }
 
+/* font color for "seo" in Hortiseon */
 .header h1 .seo {
     color: #d9dcd6;
 }
+
+/* styling of header navigation area */
 
 .header nav {
     padding-top: 15px;
@@ -31,21 +40,23 @@ body {
     font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
     font-size: 20px;
 }
-
+ /* navigation bar list set to having no markers */
 .header nav ul {
     list-style-type: none;
 }
-
+/* makes it possible for list items block to appear next to main header text */
 .header nav ul li {
     display: inline-block;
     margin-left: 25px;
 }
 
+/* navigation bar hyperlink color */
 a {
     color: #ffffff;
     text-decoration: none;
 }
 
+/* hero image styling */
 .hero {
     height: 800px;
     width: 100%;
@@ -55,26 +66,30 @@ a {
     background-position: center;
 }
 
+/*  font size for paragraph elements  */
 p {
     font-size: 16px;
 }
 
-
+/* sets size/margins for the block that contains the 3 main content containers */
 .content {
     width: 75%;
     display: inline-block;
     margin-left: 20px;
 }
 
+/* sets image size for the content container images */
 .content img{
     max-height: 200px;
 }
 
+/* sets header font size and position in 3 main content boxes */
 .content h1{
     margin-bottom: 20px;
     font-size: 36px;
 }
 
+/* sets color , dimensions, font, and text color for the 3 content containers */
 .search-engine-optimization, .online-reputation-management, .social-media-marketing {
     margin-bottom: 20px;
     padding: 50px;
@@ -84,16 +99,20 @@ p {
     color: #ffffff;
 
 }
+ 
+/* sets the first and third main content box to float left */
 
 .float-left {
     float: left;
     margin-right: 25px;
 }
-
+ /* sets the 2nd (middle) main content box to float right */
 .float-right {
     float: right;
     margin-left: 25px;
 }
+
+/* styles the aside element  container dimensions color, float , and text font color */
 
 .benefits {
     margin-right: 20px;
@@ -108,15 +127,21 @@ p {
     color: #ffffff;
 }
 
+/*  sets spaces between each of the 3 aside containers */
+
 .benefit-lead, .benefit-brand, .benefit-cost {
     margin-bottom: 32px;
     color: #ffffff;
 }
 
+/* centers header text and margins */
+
 .benefits h1 {
     margin-bottom: 10px;
     text-align: center;
 }
+
+/* sets aside element's image dimensions  */
 
 .benefits img {
     display: block;
@@ -124,12 +149,15 @@ p {
     max-width: 150px;
 }
 
+/* centers footer text and styles its font  */
 .footer {
     padding: 30px;
     clear: both;
     font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
     text-align: center;
 }
+
+/* sets footer header font size */
 
 .footer h1 {
     font-size: 20px;
