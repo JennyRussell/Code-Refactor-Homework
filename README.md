@@ -29,3 +29,24 @@
 ## MockUp
 
 ![Shows Web Application's Apperance and Functionality](01-html-css-git-homework-demo.png)
+
+
+## Steps taken to meet assignment requirements:
+
+1. Refactored HTML to improve readability
+2. Refactored HTML to include more descripitve tags, changed undescriptive <div> elements to improve accessibility 
+3. Added alt attributes to images to improve accessibility
+4. Changed h tags to reflect proper sequential order
+5. Added a more concise, but descriptive title 
+6. Consolidated CSS selectors and organized code to follow proper semantic structures
+7. Fixed navigation bar hyperlinks to ensure functionality
+8. Added descriptive comments to HTML and CSS files
+9. Made sure the final refactored code matches at lease 90% of the MockUp image 
+
+## Site URL 
+
+https://jennyrussell.github.io/homework-week1/#social-media-marketing
+
+
+
+
