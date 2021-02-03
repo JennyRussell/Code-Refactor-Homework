@@ -1,4 +1,4 @@
-# homework-week1
+# homework-week1: Code Refactor
 
 ## Assignment Requirements
 
