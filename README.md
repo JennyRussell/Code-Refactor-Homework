@@ -1,4 +1,4 @@
-# Homework-Week1
+# homework-week1
 
 ## Assignment Requirements
 
